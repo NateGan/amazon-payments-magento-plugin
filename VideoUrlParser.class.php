@@ -108,6 +108,7 @@ class VideoUrlParser
         if($data && $createObject) $data['object'] = "<embed src=\"{$data['swf']}\" quality=\"high\" width=\"480\" height=\"400\" align=\"middle\" allowNetworking=\"all\" allowScriptAccess=\"always\" type=\"application/x-shockwave-flash\"></embed>";
         return $data;
     }
+
     /**
      * 腾讯视频
      * https://v.qq.com/x/cover/qebovc3qvyod206/e0374rb7bu1.html
